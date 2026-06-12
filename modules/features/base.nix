@@ -14,8 +14,6 @@
 
     environment.systemPackages = with pkgs; [
         vim
-        tree-sitter # TODO: add neovim to home-manager instead, replace with good ol' vim here.
-        fzf
         wget
         git
         fastfetch

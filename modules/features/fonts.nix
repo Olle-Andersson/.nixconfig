@@ -2,6 +2,5 @@
   
   fonts.packages = with pkgs; [
     iosevka
-    nerd-fonts.blex-mono
   ];
 }
