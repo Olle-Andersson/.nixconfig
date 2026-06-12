@@ -9,7 +9,6 @@
       wl-clipboard
       waybar
       mako
-      tuigreet
       swaybg
       rofi
       thunar
@@ -20,16 +19,8 @@
       grim
     ];
   };
-    services.greetd = {
-    enable = true;
-    settings = {
-      default_session = {
-        command = ''
-        ${pkgs.tuigreet}/bin/tuigreet 
-        '';
-        user = "greeter";
-      };
-    };
-  };
+   # services.greetd. enable = true;
+   # programs.regreet.enable = true;
+   services.displayManager.ly.enable = true;
 
 }
