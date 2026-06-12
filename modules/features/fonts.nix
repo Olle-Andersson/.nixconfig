@@ -2,5 +2,7 @@
   
   fonts.packages = with pkgs; [
     iosevka
+    fira
+    ibm-plex
   ];
 }
