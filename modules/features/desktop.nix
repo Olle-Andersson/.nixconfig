@@ -9,5 +9,6 @@
         mpv
         zathura
         firefox
+        librewolf
     ];
 }

@@ -2,7 +2,6 @@
   
   fonts.packages = with pkgs; [
     iosevka
-    fira
-    ibm-plex
+    nerd-fonts.sauce-code-pro
   ];
 }

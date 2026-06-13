@@ -17,10 +17,14 @@
       swayidle
       swaylock
       grim
+      bibata-cursors
+      papirus-icon-theme
+      nwg-look
+      nordic
     ];
   };
-   # services.greetd. enable = true;
-   # programs.regreet.enable = true;
    services.displayManager.ly.enable = true;
+
+   services.power-profiles-daemon.enable = true;
 
 }
