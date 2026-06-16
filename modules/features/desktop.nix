@@ -1,14 +1,13 @@
 { config, pkgs, inputs, ... }: {
     imports = [
-        ./sway.nix
+        ./niri.nix
         ./nvim.nix
         ./fonts.nix
     ];
     
     environment.systemPackages = with pkgs; [
-        mpv
-        zathura
-        firefox
-        librewolf
+         kdePackages.kdenlive
+         inkscape
+         discord
     ];
 }
